@@ -16,7 +16,7 @@ const Header = () => {
         <Box className='header-background' style={{ backgroundImage: `url(${background})` }}>
             <Box className="blur-layer">
                 <Box className="header-text-section">
-                    <Grid container spacing={2} className='grid-container'>
+                    <Grid container spacing={2} className='header-grid-container'>
                         <Grid item xs={12} sm={5} md={4} className="aligned-center-container" >
                             <img src={image} alt="" style={{ width: '300px' }} />
                         </Grid>

@@ -23,7 +23,8 @@ const data = [
 
 const CategoryItem = () => {
     return (
-        <Grid container spacing={2} style={{ maxWidth: '1200px', margin: 'auto', background: '#ffffff', padding: '40px 46px 30px 30px' }}>
+        <Fragment>
+        {/* <Grid container spacing={2} style={{ maxWidth: '1200px', margin: 'auto',width: 'auto', background: '#ffffff', padding: '40px 46px 20px 30px' }}>
             {
                 data.map((item) => (
                     <Grid item xs={12} sm={6}>
@@ -43,20 +44,21 @@ const CategoryItem = () => {
                     </Grid>
                 ))
             }
-            <Box style={{ background: '#f6f6f6', margin: '50px 16px' }}>
-                <Grid container spacing={2} style={{ maxWidth: '1200px', margin: 'auto', background: '#f6f6f6', padding: '20px 26px 10px 10px' }}>
-                    <Grid item xs={12} sm={6}>
-                        <img src={image3} style={{ width: '100%', borderRadius: '10px' }} alt='' />
-                    </Grid>
-                    <Grid item xs={12} sm={6}>
-                        <Typography variant='subtitle1' className='category-item-text'>All products from Norisys have been developed to establish new standards in electrical accessories. Commitment to superior designs, elaborate attention to engineering details, modern manufacturing facilities and stringent quality measures have combined together to create a new concept in safety, reliability, flexibility and modernity. All Norisys products are designed for extreme endurance. Materials are chosen to withstand arduous conditions. Local wiring practices are carefully studied before the design of any new product at Norisys. This ensures ease of installation and durability of the products</Typography>
-                        <Button className='learn-more-button'>
-                            Learn More
-                        </Button>
-                    </Grid>
-                </Grid>
-            </Box>
+        </Grid> */}
+        <Box className='common-container' style={{ background: '#f6f6f6'}}>
+        <Grid container spacing={2} className='common-grid-container'>
+            <Grid item xs={12} sm={6}>
+                <img src={image3} style={{ width: '100%', borderRadius: '10px' }} alt='' />
+            </Grid>
+            <Grid item xs={12} sm={6}>
+                <Typography variant='subtitle1' className='category-item-text'>All products from Norisys have been developed to establish new standards in electrical accessories. Commitment to superior designs, elaborate attention to engineering details, modern manufacturing facilities and stringent quality measures have combined together to create a new concept in safety, reliability, flexibility and modernity. All Norisys products are designed for extreme endurance. Materials are chosen to withstand arduous conditions. Local wiring practices are carefully studied before the design of any new product at Norisys. This ensures ease of installation and durability of the products</Typography>
+                <Button className='learn-more-button'>
+                    Learn More
+                </Button>
+            </Grid>
         </Grid>
+    </Box>
+    </Fragment>
 
     )
 }

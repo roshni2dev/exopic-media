@@ -1,0 +1,21 @@
+.common-grid-container {
+    max-width: 1200px !important;
+    width: auto !important;
+    margin: auto !important;
+    /* padding: 20px 46px 20px 30px  !important */
+}
+
+.common-container {
+ 
+    padding: 20px 40px !important
+}
+@media screen and (max-width: 599px) {
+    .common-container {
+        padding: 20px 20px 20px 4px !important
+
+    }
+}
+.primary-heading{
+    color: #424242;
+    font-weight: 600!important;
+}
