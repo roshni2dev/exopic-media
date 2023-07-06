@@ -1,0 +1,33 @@
+
+.category-item-main-heading{
+    color: #424242;
+    font-weight: 600!important;
+    font-size: 20px !important
+}
+.category-item-sub-heading{
+    color: #6c757d;
+    font-weight: 500!important;
+    font-size: 20px !important;
+    margin: 10px 0px !important;
+    width: 440px;
+}
+@media screen and (max-width: 599px) {
+    .category-item-sub-heading {
+        width: 100%;
+    }
+}
+.category-item-text{
+    color: #6c757d;
+    font-weight: 500!important;
+    /* font-size: 20px !important */
+}
+.learn-more-button{
+    background: #17a2b8 !important;
+    text-transform: capitalize !important;
+    color: #fff !important;
+    padding: 4px 16px !important;
+    margin-top: 20px !important
+}
+.learn-more-button:hover{
+    background: #17a2b8b8 !important;
+}
