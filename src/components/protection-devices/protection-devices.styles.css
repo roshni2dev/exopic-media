@@ -1,0 +1,18 @@
+
+
+.protection-devices-sub-heading{
+    color: #6c757d;
+    font-weight: 500!important;
+    margin: 10px 0px !important;
+    /* width: 440px; */
+}
+@media screen and (max-width: 899px) {
+    .protection-devices-sub-heading {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    .protection-devices-sub-heading {
+        height: 100px;
+    }
+}

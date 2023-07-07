@@ -6,6 +6,7 @@ import Presentation from "./components/presentation/presentation.component";
 import Solutions from "./components/solutions/solutions.component";
 import Footer from "./components/footer/footer.component";
 import CopyRight from "./components/copy/copyright.component";
+import ProtectionDevices from "./components/protection-devices/protection-devices.component";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <MultipleCombinations />
             <Presentation />
             <Solutions />
+            <ProtectionDevices />
             <Footer />
             <CopyRight />
         </Fragment>
