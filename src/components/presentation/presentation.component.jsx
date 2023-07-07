@@ -1,6 +1,6 @@
 
-import React, { Fragment } from 'react'
-import { Box, Button, Grid, Typography } from '@mui/material';
+import React from 'react'
+import { Box, Grid, Typography } from '@mui/material';
 import './presentation.styles.css';
 
 const Presentation = () => {
@@ -14,7 +14,7 @@ const Presentation = () => {
                     </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                    <iframe src="https://www.youtube.com/embed/rAOr1Z274X4" frameborder="0" className='iframe-video' />
+                    <iframe title='youtube-embed-video' src="https://www.youtube.com/embed/rAOr1Z274X4" frameborder="0" className='iframe-video' />
                 </Grid>
             </Grid>
         </Box>

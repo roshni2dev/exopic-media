@@ -1,6 +1,6 @@
 
-import React, { Fragment } from 'react'
-import { Box, Button, Grid, Typography } from '@mui/material';
+import React from 'react'
+import { Box, Grid, Typography } from '@mui/material';
 import image1 from '../../assets/2.jpeg';
 import './multiple-combinations.styles.css';
 

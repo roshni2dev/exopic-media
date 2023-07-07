@@ -1,5 +1,5 @@
 
-import React, { Fragment } from 'react'
+import React from 'react'
 import { Box, Button, Grid, ListItemIcon, ListItemText, MenuItem, MenuList, Typography } from '@mui/material';
 import './footer.styles.css';
 import { ArrowForwardIos, Facebook, Google, Instagram, LinkedIn, Twitter } from '@mui/icons-material';

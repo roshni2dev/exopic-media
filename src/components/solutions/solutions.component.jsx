@@ -1,5 +1,5 @@
 
-import React, { Fragment } from 'react'
+import React from 'react'
 import { Box, Button, Card, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import icon1 from '../../assets/icon-1.jpeg';
 import icon2 from '../../assets/icon-2.jpeg';
