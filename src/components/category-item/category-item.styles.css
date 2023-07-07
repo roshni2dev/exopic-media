@@ -1,19 +1,21 @@
 
 .category-item-main-heading{
     color: #424242;
-    font-weight: 600!important;
-    font-size: 20px !important
 }
 .category-item-sub-heading{
     color: #6c757d;
     font-weight: 500!important;
-    font-size: 20px !important;
     margin: 10px 0px !important;
     width: 440px;
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 899px) {
     .category-item-sub-heading {
         width: 100%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .category-item-sub-heading {
+        height: 100px;
     }
 }
 .category-item-text{

@@ -3,6 +3,7 @@ import { Box, Grid, Typography } from '@mui/material';
 import background from '../../assets/header-background.jpeg'
 import image from '../../assets/1.jpg'
 import './header.styles.css';
+import Navigation from '../navigation/navigation.component';
 
 // const useStyles = makeStyles(() => ({
 // container:{
@@ -15,6 +16,7 @@ const Header = () => {
     return (
         <Box className='header-background' style={{ backgroundImage: `url(${background})` }}>
             <Box className="blur-layer">
+                <Navigation />
                 <Box className="header-text-section">
                     <Grid container spacing={2} className='header-grid-container'>
                         <Grid item xs={12} sm={5} md={4} className="aligned-center-container" >

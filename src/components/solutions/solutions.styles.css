@@ -1,0 +1,17 @@
+.card-button {
+    color: #17a2b8 !important;
+    text-transform: capitalize !important;
+    padding: 0px;
+}
+
+.card-sub-heading {
+    line-height: 1.45 !important;
+    color: #6c757d;
+    height: 70px
+}
+@media screen and (max-width: 899px) {
+    .card-sub-heading {
+        height: auto
+
+    }
+}

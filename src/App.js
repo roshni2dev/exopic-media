@@ -4,6 +4,9 @@ import { Box } from "@mui/material";
 import CategoryItem from "./components/category-item/category-item.component";
 import MultipleCombinations from "./components/multiple-combinations/multiple-combinations.component";
 import Presentation from "./components/presentation/presentation.component";
+import Solutions from "./components/solutions/solutions.component";
+import Footer from "./components/footer/footer.component";
+import CopyRight from "./components/copy/copyright.component";
 
 function App() {
     return (
@@ -13,6 +16,9 @@ function App() {
                 <CategoryItem />
                 <MultipleCombinations />
                 <Presentation />
+                <Solutions />
+                <Footer />
+                <CopyRight />
             {/* </Box> */}
         </Fragment>
     );
